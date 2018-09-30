@@ -14,5 +14,6 @@ end
 def move(board, index, character = "X")
   puts "the board is: #{board}!"
   board[0] = "X"
+  board[index] = character 
   
 end
