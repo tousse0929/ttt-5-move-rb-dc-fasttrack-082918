@@ -13,7 +13,6 @@ end
 
 def move(board, index, character = "X")
   puts "the board is: #{board}!"
-  index = input_to_index
   board[index, character]
   
 end
